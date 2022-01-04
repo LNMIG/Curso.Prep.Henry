@@ -48,11 +48,11 @@ describe('invocarMetodo(object, method)', function() {
     const object = {
       x: 0,
       incrementX: function() {
-        this.x++;
-      },
-    }
+        return this.x + 1;
+      }
+    };
     invocarMetodo(object, 'incrementX');
-    expect(object.x).toBe(1);
+    expect(object.incrementX()).toBe(1);
   });
 });
 
