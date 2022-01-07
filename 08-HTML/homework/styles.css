@@ -1,0 +1,39 @@
+body {
+    background-image: url("./flag.argentina.jpg");
+}
+h1 {
+    color: indianred;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    -webkit-flex: initial;
+            flex: initial;
+    height: 600px;
+    width: 500px;
+    min-width: 200px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    background-color: burlywood;
+    padding: 50px;
+    border: 25px inset deeppink;
+}
+.divClass {
+    -webkit-flex: initial;
+            flex: initial;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+#spanId {
+    text-size-adjust: 18px;
+    margin: 50px;
+}
