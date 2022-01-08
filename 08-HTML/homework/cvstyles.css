@@ -1,0 +1,59 @@
+img {
+    width: 350px;
+}
+#nombres {
+    font-family: arial black;
+    color:darkblue;
+}
+#apellidos {
+    font-family: arial;
+    color:darkblue;
+}
+h3 {
+    font-family: arial;
+    text-shadow: 2px 0px 3px black;
+    color:rgb(1, 11, 22);
+    border-bottom: 1px solid rgb(79,129,189);
+}
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.cabecera {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 800px;
+    background-color:lightsteelblue;
+    padding: 10px;
+}
+.yomismo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: justify;
+    width: 800px;
+}
+.cabeceraitem {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 1px;
+}
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: left;
+}
+.interior {
+    text-align: justify;
+    margin-left: 20px;
+}
+p {
+    margin-top: 10px;
+}
+.educacion {
+    margin-top: 2px;
+    text-align: justify;
+}
