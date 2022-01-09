@@ -1,5 +1,5 @@
 body {
-    background-image: url("./flag.argentina.jpg");
+    background-image: url(./flag-argentina.jpg);
 }
 h1 {
     color: indianred;
@@ -8,32 +8,24 @@ img {
     width: 400px;
 }
 #thirdDiv {
-    -webkit-flex: initial;
-            flex: initial;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     height: 600px;
     width: 500px;
-    min-width: 200px;
-    display: -webkit-flex;
-    display:         flex;
-    -webkit-align-items: center;
-            align-items: center;
-    -webkit-justify-content: center;
-            justify-content: center;
     background-color: burlywood;
     padding: 50px;
     border: 25px inset deeppink;
+    margin-top: 25px;
 }
 .divClass {
-    -webkit-flex: initial;
-            flex: initial;
-    display: -webkit-flex;
-    display:         flex;
-    -webkit-align-items: center;
-            align-items: center;
-    -webkit-justify-content: center;
-            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 #spanId {
+    margin-left: auto;
+    margin-right: auto;
     text-size-adjust: 18px;
     margin: 50px;
 }
